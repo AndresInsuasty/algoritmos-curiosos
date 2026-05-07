@@ -35,6 +35,28 @@ uv run algoritmos-curiosos bogosort
 uv run algoritmos-curiosos maze
 ```
 
+## Demostraciones visuales
+
+### Sleep Sort
+
+![Sleep Sort](images/sleep_sort.png)
+
+### Floyd (Tortuga y Liebre)
+
+![Floyd Cycle](images/floyd_cycle.png)
+
+### Fast Inverse Square Root
+
+![Fast Inverse Square Root](images/fast_inverse_sqrt.png)
+
+### Bogosort / Quantum Bogosort
+
+![Bogosort](images/bogosort.png)
+
+### Laberintos con Prim / Kruskal
+
+![Maze Generation](images/maze_generation.png)
+
 ## Qué muestra cada demo
 
 - **Sleep Sort**: barras que “despiertan” según su valor y van apareciendo ordenadas.
