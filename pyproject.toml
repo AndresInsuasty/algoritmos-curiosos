@@ -1,0 +1,23 @@
+[project]
+name = "algoritmos-curiosos"
+version = "0.1.0"
+description = "Demos interactivos en pygame para algoritmos curiosos y poco convencionales"
+authors = [
+    { name = "copilot-swe-agent[bot]", email = "198982749+Copilot@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[project.scripts]
+algoritmos-curiosos = "algoritmos_curiosos:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.11,<0.12.0"]
+build-backend = "uv_build"
